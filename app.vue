@@ -1,14 +1,17 @@
 <template>
   <div>
-    <login />
+    <heads />
+
+
+    <foots />
 
   </div>
 </template>
 
 <script>
-import login from './components/login.vue'
+import heads from './components/heads.vue'
   export default {
-  components: { login },
+  components: { heads },
     
   }
 </script>
